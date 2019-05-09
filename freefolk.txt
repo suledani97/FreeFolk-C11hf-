@@ -1,0 +1,126 @@
+A játékos a standard inputon ad utasításokat. A játékos alapjában véve egyszerű Harcos osztályú karakterrel játszik. 
+
+classok:
+Character absztrakt, Player (absztrakt), Warrior, Enemy(absztrakt), Orc, Scenario, CombatScenario, Ability(absztrakt), FireSlash, Heal
+
+Minden Scenario esetén vannak lehetséges input darabok, amelyeket egy Stringet tartalmazó vektorban tárolunk.
+Amikor a Player beír egy inputot, megnézzük, hogy passszol e valamelyik input darabhoz és az alapján választunk eseményt ami történik.
+Egy mapben tároljuk az adott esemény id-jét és a hozzá tartozó következő Scenariot.
+
+A Combat:
+A játékosnak és az ellenfélnek is vannak életpontjai és sebzése.
+A játékos és az ellenfél is rendelkezik ezen kívül Armor Class-el.
+A játékos ezen kívül rendelkezik két különböző képességgel.
+Kockadobás szimulációval történik a harc.
+A kör elején a játékos eldöntheti mit tesz. Ha támad, akkor kockadobás, ha megdobja az ellenfele AC-ját, akkor betalál.
+Ha FireSlash-et alkalmaz akkor automatikusan sebződik az ellenfél 5 életpontot.
+Ha Heal-t alkalmaz akkor megnövelődik az életpontja 5-tel.
+
+Osztályok:
+-----------------------------------------------
+Scenario
+private String message;
+std::map<String, Scenario pointer> events;
+
+public void RunScenario(){
+    képernyőplayerje kiírja a messaget;
+    beolvassplayera az inputot;
+    FindNextplayerScenario(felhasználó input).RunScenario();
+}player
+player
+private Scenplayerario pointer FindNextScenario(string felhasználóinput){
+    feldarabplayerolja a Stringet a szavakra.
+    végigmegplayery a mapen és megpróbálja az adott stringet ráilleszteni valamelyik feldarabolt szódarabra.
+    a paszzoplayerló stringhez tartozó Scenario Pointert eltároljuk egy vektorban.
+    Megnézzüplayerk hányszor van meg benne az adott Scenario pointer. Azt a Scenariot válasszuk amelyik a legtöbbször szerepel a vektorban. 
+}player
+------------player-------------------------------------
+CombatScenario
+Player player;
+Enemy enemy;
+
+public void RunScenario(){
+    WriteScenarioMessage()
+
+    while(!player.isDead() || !enemy.isDead())
+        beolvassa az inputot;
+        player.chooseNextMove(input, enemy);
+    if (player.isDead()){
+        return;
+    }
+    if (enemy.isDead()){
+        WriteVictoryMessage()
+    }
+}
+
+private void WriteScenarioMessage(){
+    "It seems that you have found yourself in a fight. Trouble is surely Brewing" Kiirja az ellenfél nevét és életpontját.
+    player.WriteCombatMessage();
+}
+
+private void WriteVictoryMessage(){
+    victory szöveg
+}
+
+-----------------------------------------------------
+Character absztrakt
+
+bool isDead;
+int health;
+int damage;
+
+public boolean isDead(){
+    return isDead;
+}
+
+public void takeDamage(int damage){
+    health-damage;
+    if (health <= 0){
+        Die();
+    }
+}
+
+private void Die() = 0;
+
+----------------------------------------------------
+
+Player absztrakt : public Character
+
+public void chooseNextMove(input, enemy) = 0;
+
+public void WriteCombatMessage() = 0;
+
+-----------------------------------------------------
+
+Warrior : public Player
+
+std::map<string, Ability pointer> abilities;
+
+public void chooseNextMove(input, enemy){
+    input feldarabolása, mapben keresés, megfelelő ability meghívása
+    ability.Use(this, enemy);
+    Ha nem találunk passzolót
+    "I don't know what you mean."
+}
+
+private void Die(){
+    Warrior halálszöveg;
+}
+
+-------------------------------------------------------
+
+Enemy absztrakt : public Character
+
+
+
+
+
+
+
+
+
+
+
+
+
+
