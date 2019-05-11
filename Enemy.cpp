@@ -3,3 +3,10 @@
 //
 
 #include "Enemy.h"
+
+void Enemy::Die() {
+
+}
+
+Enemy::Enemy(int health, int damage) : Character(health, damage) {
+}

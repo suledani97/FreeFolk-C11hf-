@@ -3,3 +3,6 @@
 //
 
 #include "Player.h"
+
+Player::Player(int health, int damage) : Character(health, damage){
+}

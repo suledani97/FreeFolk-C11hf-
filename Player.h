@@ -13,6 +13,8 @@
 class Player : public Character{
 
 public:
+    Player() = delete;
+    Player(int health, int damage);
     virtual void chooseNextMove(std::string input, Enemy enemy) = 0;
     virtual void writeCombatMessage() = 0;
 };

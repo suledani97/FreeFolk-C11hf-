@@ -9,6 +9,12 @@
 #include "Character.h"
 
 class Enemy : public Character {
+private:
+    virtual void Die() override final;
+
+public:
+    Enemy() = delete;
+    Enemy(int health, int damage);
 
 };
 

@@ -9,13 +9,15 @@
 class Character {
 
 private:
-    bool isDead;
-    int health;
-    int damage;
+    bool _isDead;
+    int _health;
+    int _damage;
 
     virtual void Die() = 0;
 
 public:
+    Character() = delete;
+    Character(int health, int damage);
     bool hadDied();
     void takeDamage(int damage);
 

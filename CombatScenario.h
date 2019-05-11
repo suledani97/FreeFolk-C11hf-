@@ -6,8 +6,12 @@
 #define HF2_COMBATSCENARIO_H
 
 
-class CombatScenario {
+#include "Scenario.h"
+#include "Player.h"
 
+class CombatScenario final : public Scenario{
+private:
+    //Player player;
 };
 
 

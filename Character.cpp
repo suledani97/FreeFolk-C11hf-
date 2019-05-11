@@ -5,12 +5,16 @@
 #include "Character.h"
 
 bool Character::hadDied() {
-    return isDead;
+    return _isDead;
 }
 
 void Character::takeDamage(int damage) {
-    health-damage;
-    if (health <= 0){
+    _health = _health-damage;
+    if (_health <= 0){
         Die();
     }
+}
+
+Character::Character(int health, int damage): _health{health}, _damage{damage}{
+
 }
