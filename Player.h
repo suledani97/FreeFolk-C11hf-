@@ -7,6 +7,7 @@
 
 
 #include <xstring>
+#include <memory>
 #include "Character.h"
 #include "Enemy.h"
 
@@ -14,8 +15,8 @@ class Player : public Character{
 
 public:
     Player() = delete;
-    Player(int health, int damage);
-    virtual void chooseNextMove(std::string input, Enemy enemy) = 0;
+    Player(int health, int damage, int armor);
+    virtual void chooseNextMove(std::string input, std::shared_ptr<Enemy> enemy) = 0;
     virtual void writeCombatMessage() = 0;
 };
 

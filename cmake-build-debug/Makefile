@@ -286,6 +286,33 @@ Warrior.cpp.s:
 	$(MAKE) -f CMakeFiles\hf2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hf2.dir\Warrior.cpp.s
 .PHONY : Warrior.cpp.s
 
+WeaponScenario.obj: WeaponScenario.cpp.obj
+
+.PHONY : WeaponScenario.obj
+
+# target to build an object file
+WeaponScenario.cpp.obj:
+	$(MAKE) -f CMakeFiles\hf2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hf2.dir\WeaponScenario.cpp.obj
+.PHONY : WeaponScenario.cpp.obj
+
+WeaponScenario.i: WeaponScenario.cpp.i
+
+.PHONY : WeaponScenario.i
+
+# target to preprocess a source file
+WeaponScenario.cpp.i:
+	$(MAKE) -f CMakeFiles\hf2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hf2.dir\WeaponScenario.cpp.i
+.PHONY : WeaponScenario.cpp.i
+
+WeaponScenario.s: WeaponScenario.cpp.s
+
+.PHONY : WeaponScenario.s
+
+# target to generate assembly for a file
+WeaponScenario.cpp.s:
+	$(MAKE) -f CMakeFiles\hf2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hf2.dir\WeaponScenario.cpp.s
+.PHONY : WeaponScenario.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -340,6 +367,9 @@ help:
 	@echo ... Warrior.obj
 	@echo ... Warrior.i
 	@echo ... Warrior.s
+	@echo ... WeaponScenario.obj
+	@echo ... WeaponScenario.i
+	@echo ... WeaponScenario.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

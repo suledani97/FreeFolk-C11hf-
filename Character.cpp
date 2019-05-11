@@ -15,6 +15,21 @@ void Character::takeDamage(int damage) {
     }
 }
 
-Character::Character(int health, int damage): _health{health}, _damage{damage}{
+Character::Character(int health, int damage, int armor): _health{health}, _damage{damage}, _armorclass{armor}{
+}
 
+void Character::changeDamage(int new_damage) {
+   _damage = new_damage;
+}
+
+int Character::get_health() {
+    return _health;
+}
+
+int Character::get_damage() {
+    return _damage;
+}
+
+int Character::get_armorclass() {
+    return _armorclass;
 }

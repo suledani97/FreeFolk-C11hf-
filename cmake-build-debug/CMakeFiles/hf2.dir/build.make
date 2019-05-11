@@ -191,6 +191,25 @@ CMakeFiles\hf2.dir\CombatScenario.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\hf2.dir\CombatScenario.cpp.s /c D:\BME_6\c11\hf2\CombatScenario.cpp
 <<
 
+CMakeFiles\hf2.dir\WeaponScenario.cpp.obj: CMakeFiles\hf2.dir\flags.make
+CMakeFiles\hf2.dir\WeaponScenario.cpp.obj: ..\WeaponScenario.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\BME_6\c11\hf2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/hf2.dir/WeaponScenario.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\hf2.dir\WeaponScenario.cpp.obj /FdCMakeFiles\hf2.dir\ /FS -c D:\BME_6\c11\hf2\WeaponScenario.cpp
+<<
+
+CMakeFiles\hf2.dir\WeaponScenario.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hf2.dir/WeaponScenario.cpp.i"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe > CMakeFiles\hf2.dir\WeaponScenario.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\BME_6\c11\hf2\WeaponScenario.cpp
+<<
+
+CMakeFiles\hf2.dir\WeaponScenario.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hf2.dir/WeaponScenario.cpp.s"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\hf2.dir\WeaponScenario.cpp.s /c D:\BME_6\c11\hf2\WeaponScenario.cpp
+<<
+
 # Object files for target hf2
 hf2_OBJECTS = \
 "CMakeFiles\hf2.dir\main.cpp.obj" \
@@ -199,7 +218,8 @@ hf2_OBJECTS = \
 "CMakeFiles\hf2.dir\Enemy.cpp.obj" \
 "CMakeFiles\hf2.dir\Warrior.cpp.obj" \
 "CMakeFiles\hf2.dir\Scenario.cpp.obj" \
-"CMakeFiles\hf2.dir\CombatScenario.cpp.obj"
+"CMakeFiles\hf2.dir\CombatScenario.cpp.obj" \
+"CMakeFiles\hf2.dir\WeaponScenario.cpp.obj"
 
 # External object files for target hf2
 hf2_EXTERNAL_OBJECTS =
@@ -211,9 +231,10 @@ hf2.exe: CMakeFiles\hf2.dir\Enemy.cpp.obj
 hf2.exe: CMakeFiles\hf2.dir\Warrior.cpp.obj
 hf2.exe: CMakeFiles\hf2.dir\Scenario.cpp.obj
 hf2.exe: CMakeFiles\hf2.dir\CombatScenario.cpp.obj
+hf2.exe: CMakeFiles\hf2.dir\WeaponScenario.cpp.obj
 hf2.exe: CMakeFiles\hf2.dir\build.make
 hf2.exe: CMakeFiles\hf2.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\BME_6\c11\hf2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable hf2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\BME_6\c11\hf2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable hf2.exe"
 	"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\hf2.dir --manifests  -- C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\hf2.dir\objects1.rsp @<<
  /out:hf2.exe /implib:hf2.lib /pdb:D:\BME_6\c11\hf2\cmake-build-debug\hf2.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

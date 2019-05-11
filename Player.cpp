@@ -4,5 +4,5 @@
 
 #include "Player.h"
 
-Player::Player(int health, int damage) : Character(health, damage){
+Player::Player(int health, int damage, int armor) : Character(health, damage, armor){
 }

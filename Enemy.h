@@ -14,8 +14,8 @@ private:
 
 public:
     Enemy() = delete;
-    Enemy(int health, int damage);
-
+    Enemy(int health, int damage, int armor);
+    void writeCombatMessage();
 };
 
 

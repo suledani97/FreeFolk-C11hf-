@@ -32,10 +32,19 @@ CMakeFiles/hf2.dir/Warrior.cpp.obj
  D:/BME_6/c11/hf2/Player.h
  D:/BME_6/c11/hf2/Warrior.cpp
  D:/BME_6/c11/hf2/Warrior.h
-CMakeFiles/hf2.dir/main.cpp.obj
+CMakeFiles/hf2.dir/WeaponScenario.cpp.obj
  D:/BME_6/c11/hf2/Character.h
  D:/BME_6/c11/hf2/Enemy.h
  D:/BME_6/c11/hf2/Player.h
  D:/BME_6/c11/hf2/Scenario.h
+ D:/BME_6/c11/hf2/WeaponScenario.cpp
+ D:/BME_6/c11/hf2/WeaponScenario.h
+CMakeFiles/hf2.dir/main.cpp.obj
+ D:/BME_6/c11/hf2/Character.h
+ D:/BME_6/c11/hf2/CombatScenario.h
+ D:/BME_6/c11/hf2/Enemy.h
+ D:/BME_6/c11/hf2/Player.h
+ D:/BME_6/c11/hf2/Scenario.h
  D:/BME_6/c11/hf2/Warrior.h
+ D:/BME_6/c11/hf2/WeaponScenario.h
  D:/BME_6/c11/hf2/main.cpp

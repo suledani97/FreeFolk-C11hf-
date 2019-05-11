@@ -1,9 +1,3 @@
-#include <utility>
-
-#include <utility>
-
-#include <utility>
-
 //
 // Created by Dani on 2019. 05. 09..
 //
@@ -12,21 +6,24 @@
 #include <iostream>
 #include <sstream>
 #include "Scenario.h"
+#include <vector>
 
 void Scenario::runScenario() {
-    std::cout << _message << std::endl;
-    std::string input;
-    std::cout << "What do you do?" << std::endl;
-    std::getline(std::cin, input);
-    findScenario(input);
+    writeScenarioMessage();
+    askForInput();
 }
 
 void Scenario::writeScenarioMessage() {
-
+    std::stringstream ss(_message);
+    std::string split;
+    std::vector<std::string> splitString;
+    while(std::getline(ss, split, '.')){
+        std::cout << split << "." << std::endl;
+    }
 }
 
-Scenario::Scenario(std::string message, std::shared_ptr<Player> player, std::shared_ptr<Enemy> enemy):
-_message{std::move(message)}, _player{std::move(player)}, _enemy{std::move(enemy)}{
+Scenario::Scenario(std::string message):
+_message{std::move(message)}{
 }
 
 void Scenario::addToMap(std::pair<std::string, std::shared_ptr<Scenario>> newEvent) {
@@ -69,5 +66,13 @@ void Scenario::findScenario(std::string input) {
     }
     else{
         std::cout << "I don't know what you mean." << std::endl;
+        askForInput();
     }
+}
+
+void Scenario::askForInput() {
+    std::cout << "What do you do?" << std::endl;
+    std::string input;
+    std::getline(std::cin, input);
+    findScenario(input);
 }

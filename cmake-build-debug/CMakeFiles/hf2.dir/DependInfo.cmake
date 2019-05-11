@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/BME_6/c11/hf2/Player.cpp" "D:/BME_6/c11/hf2/cmake-build-debug/CMakeFiles/hf2.dir/Player.cpp.obj"
   "D:/BME_6/c11/hf2/Scenario.cpp" "D:/BME_6/c11/hf2/cmake-build-debug/CMakeFiles/hf2.dir/Scenario.cpp.obj"
   "D:/BME_6/c11/hf2/Warrior.cpp" "D:/BME_6/c11/hf2/cmake-build-debug/CMakeFiles/hf2.dir/Warrior.cpp.obj"
+  "D:/BME_6/c11/hf2/WeaponScenario.cpp" "D:/BME_6/c11/hf2/cmake-build-debug/CMakeFiles/hf2.dir/WeaponScenario.cpp.obj"
   "D:/BME_6/c11/hf2/main.cpp" "D:/BME_6/c11/hf2/cmake-build-debug/CMakeFiles/hf2.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

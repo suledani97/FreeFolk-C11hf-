@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+D:/BME_6/c11/hf2/Character.cpp
+Character.h
+D:/BME_6/c11/hf2/Character.h
+
 D:/BME_6/c11/hf2/Character.h
 type_traits
 -
@@ -20,12 +24,24 @@ D:/BME_6/c11/hf2/Scenario.h
 Player.h
 D:/BME_6/c11/hf2/Player.h
 
+D:/BME_6/c11/hf2/Enemy.cpp
+iostream
+-
+Enemy.h
+D:/BME_6/c11/hf2/Enemy.h
+
 D:/BME_6/c11/hf2/Enemy.h
 Character.h
 D:/BME_6/c11/hf2/Character.h
 
+D:/BME_6/c11/hf2/Player.cpp
+Player.h
+D:/BME_6/c11/hf2/Player.h
+
 D:/BME_6/c11/hf2/Player.h
 xstring
+-
+memory
 -
 Character.h
 D:/BME_6/c11/hf2/Character.h
@@ -33,12 +49,6 @@ Enemy.h
 D:/BME_6/c11/hf2/Enemy.h
 
 D:/BME_6/c11/hf2/Scenario.cpp
-utility
--
-utility
--
-utility
--
 string
 -
 iostream
@@ -47,6 +57,8 @@ sstream
 -
 Scenario.h
 D:/BME_6/c11/hf2/Scenario.h
+vector
+-
 
 D:/BME_6/c11/hf2/Scenario.h
 xstring
@@ -58,9 +70,33 @@ memory
 Player.h
 D:/BME_6/c11/hf2/Player.h
 
+D:/BME_6/c11/hf2/Warrior.cpp
+memory
+-
+iostream
+-
+Warrior.h
 D:/BME_6/c11/hf2/Warrior.h
+
+D:/BME_6/c11/hf2/Warrior.h
+memory
+-
 Player.h
 D:/BME_6/c11/hf2/Player.h
+
+D:/BME_6/c11/hf2/WeaponScenario.cpp
+utility
+-
+iostream
+-
+string
+-
+WeaponScenario.h
+D:/BME_6/c11/hf2/WeaponScenario.h
+
+D:/BME_6/c11/hf2/WeaponScenario.h
+Scenario.h
+D:/BME_6/c11/hf2/Scenario.h
 
 D:/BME_6/c11/hf2/main.cpp
 memory
@@ -73,4 +109,8 @@ Warrior.h
 D:/BME_6/c11/hf2/Warrior.h
 Scenario.h
 D:/BME_6/c11/hf2/Scenario.h
+WeaponScenario.h
+D:/BME_6/c11/hf2/WeaponScenario.h
+CombatScenario.h
+D:/BME_6/c11/hf2/CombatScenario.h
 

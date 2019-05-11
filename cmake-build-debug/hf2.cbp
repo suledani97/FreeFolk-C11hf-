@@ -120,6 +120,12 @@
 		<Unit filename="D:/BME_6/c11/hf2/Warrior.h">
 			<Option target="hf2"/>
 		</Unit>
+		<Unit filename="D:/BME_6/c11/hf2/WeaponScenario.cpp">
+			<Option target="hf2"/>
+		</Unit>
+		<Unit filename="D:/BME_6/c11/hf2/WeaponScenario.h">
+			<Option target="hf2"/>
+		</Unit>
 		<Unit filename="D:/BME_6/c11/hf2/main.cpp">
 			<Option target="hf2"/>
 		</Unit>

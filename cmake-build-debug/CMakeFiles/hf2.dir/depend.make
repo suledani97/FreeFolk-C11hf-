@@ -32,10 +32,19 @@ CMakeFiles\hf2.dir\Warrior.cpp.obj: ..\Player.h
 CMakeFiles\hf2.dir\Warrior.cpp.obj: ..\Warrior.cpp
 CMakeFiles\hf2.dir\Warrior.cpp.obj: ..\Warrior.h
 
+CMakeFiles\hf2.dir\WeaponScenario.cpp.obj: ..\Character.h
+CMakeFiles\hf2.dir\WeaponScenario.cpp.obj: ..\Enemy.h
+CMakeFiles\hf2.dir\WeaponScenario.cpp.obj: ..\Player.h
+CMakeFiles\hf2.dir\WeaponScenario.cpp.obj: ..\Scenario.h
+CMakeFiles\hf2.dir\WeaponScenario.cpp.obj: ..\WeaponScenario.cpp
+CMakeFiles\hf2.dir\WeaponScenario.cpp.obj: ..\WeaponScenario.h
+
 CMakeFiles\hf2.dir\main.cpp.obj: ..\Character.h
+CMakeFiles\hf2.dir\main.cpp.obj: ..\CombatScenario.h
 CMakeFiles\hf2.dir\main.cpp.obj: ..\Enemy.h
 CMakeFiles\hf2.dir\main.cpp.obj: ..\Player.h
 CMakeFiles\hf2.dir\main.cpp.obj: ..\Scenario.h
 CMakeFiles\hf2.dir\main.cpp.obj: ..\Warrior.h
+CMakeFiles\hf2.dir\main.cpp.obj: ..\WeaponScenario.h
 CMakeFiles\hf2.dir\main.cpp.obj: ..\main.cpp
 

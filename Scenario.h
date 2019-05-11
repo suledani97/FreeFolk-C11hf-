@@ -14,17 +14,17 @@
 class Scenario {
 private:
     std::string _message;
-    std::shared_ptr<Player> _player;
-    std::shared_ptr<Enemy> _enemy;
     std::map<std::string, std::shared_ptr<Scenario>> _events;
 
+protected:
     void writeScenarioMessage();
 
 public:
-    Scenario(std::string message, std::shared_ptr<Player> player, std::shared_ptr<Enemy> enemy);
-    void runScenario();
+    explicit Scenario(std::string message);
+    virtual void runScenario();
     void addToMap(std::pair<std::string, std::shared_ptr<Scenario>>);
     void findScenario(std::string input);
+    void askForInput();
 };
 
 

@@ -5,7 +5,7 @@
 #ifndef HF2_WARRIOR_H
 #define HF2_WARRIOR_H
 
-
+#include <memory>
 #include "Player.h"
 
 class Warrior final : public Player{
@@ -15,8 +15,8 @@ private:
 
 
 public:
-    Warrior(int health, int damage);
-    virtual void chooseNextMove(std::string input, Enemy enemy) override final;
+    Warrior(int health, int damage, int armor);
+    virtual void chooseNextMove(std::string input, std::shared_ptr<Enemy> enemy) override final;
     virtual void writeCombatMessage() override final;
 };
 
