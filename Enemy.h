@@ -7,6 +7,7 @@
 
 
 #include "Character.h"
+class Player;
 
 class Enemy : public Character {
 private:
@@ -16,6 +17,7 @@ public:
     Enemy() = delete;
     Enemy(int health, int damage, int armor);
     void writeCombatMessage();
+    virtual void chooseNextMove(std::shared_ptr<Character> enemy) override final;
 };
 
 

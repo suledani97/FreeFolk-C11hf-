@@ -6,13 +6,20 @@
 #include <iostream>
 #include "Warrior.h"
 
-void Warrior::chooseNextMove(std::string input, std::shared_ptr<Enemy> enemy) {
-
+void Warrior::chooseNextMove(std::shared_ptr<Character> enemy) {
+    for (const std::shared_ptr<Ability> &a : get_abilities()){
+        a->writeDescription();
+    }
+    std::cout << "To use the abilities, write their number. (0, 1 or 2)" << std::endl;
+    int choice;
+    std::cin >> choice;
+    static_cast<std::shared_ptr<Ability>>(get_abilities()[choice])->useAbility(*this, enemy);
 }
 
 void Warrior::Die() {
     std::cout << "It seems that you have met a terrible fate." << std::endl;
-    std::cout << "Thank you for playing. Better luck playing." << std::endl;
+    std::cout << "Thank you for playing. Better luck next time." << std::endl;
+    this->set_death(true);
 }
 
 void Warrior::writeCombatMessage() {

@@ -124,6 +124,33 @@ hf2\fast:
 	$(MAKE) -f CMakeFiles\hf2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hf2.dir\build
 .PHONY : hf2\fast
 
+Attack.obj: Attack.cpp.obj
+
+.PHONY : Attack.obj
+
+# target to build an object file
+Attack.cpp.obj:
+	$(MAKE) -f CMakeFiles\hf2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hf2.dir\Attack.cpp.obj
+.PHONY : Attack.cpp.obj
+
+Attack.i: Attack.cpp.i
+
+.PHONY : Attack.i
+
+# target to preprocess a source file
+Attack.cpp.i:
+	$(MAKE) -f CMakeFiles\hf2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hf2.dir\Attack.cpp.i
+.PHONY : Attack.cpp.i
+
+Attack.s: Attack.cpp.s
+
+.PHONY : Attack.s
+
+# target to generate assembly for a file
+Attack.cpp.s:
+	$(MAKE) -f CMakeFiles\hf2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hf2.dir\Attack.cpp.s
+.PHONY : Attack.cpp.s
+
 Character.obj: Character.cpp.obj
 
 .PHONY : Character.obj
@@ -204,6 +231,60 @@ Enemy.s: Enemy.cpp.s
 Enemy.cpp.s:
 	$(MAKE) -f CMakeFiles\hf2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hf2.dir\Enemy.cpp.s
 .PHONY : Enemy.cpp.s
+
+FireSlash.obj: FireSlash.cpp.obj
+
+.PHONY : FireSlash.obj
+
+# target to build an object file
+FireSlash.cpp.obj:
+	$(MAKE) -f CMakeFiles\hf2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hf2.dir\FireSlash.cpp.obj
+.PHONY : FireSlash.cpp.obj
+
+FireSlash.i: FireSlash.cpp.i
+
+.PHONY : FireSlash.i
+
+# target to preprocess a source file
+FireSlash.cpp.i:
+	$(MAKE) -f CMakeFiles\hf2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hf2.dir\FireSlash.cpp.i
+.PHONY : FireSlash.cpp.i
+
+FireSlash.s: FireSlash.cpp.s
+
+.PHONY : FireSlash.s
+
+# target to generate assembly for a file
+FireSlash.cpp.s:
+	$(MAKE) -f CMakeFiles\hf2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hf2.dir\FireSlash.cpp.s
+.PHONY : FireSlash.cpp.s
+
+Heal.obj: Heal.cpp.obj
+
+.PHONY : Heal.obj
+
+# target to build an object file
+Heal.cpp.obj:
+	$(MAKE) -f CMakeFiles\hf2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hf2.dir\Heal.cpp.obj
+.PHONY : Heal.cpp.obj
+
+Heal.i: Heal.cpp.i
+
+.PHONY : Heal.i
+
+# target to preprocess a source file
+Heal.cpp.i:
+	$(MAKE) -f CMakeFiles\hf2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hf2.dir\Heal.cpp.i
+.PHONY : Heal.cpp.i
+
+Heal.s: Heal.cpp.s
+
+.PHONY : Heal.s
+
+# target to generate assembly for a file
+Heal.cpp.s:
+	$(MAKE) -f CMakeFiles\hf2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\hf2.dir\Heal.cpp.s
+.PHONY : Heal.cpp.s
 
 Player.obj: Player.cpp.obj
 
@@ -349,6 +430,9 @@ help:
 	@echo ... hf2
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Attack.obj
+	@echo ... Attack.i
+	@echo ... Attack.s
 	@echo ... Character.obj
 	@echo ... Character.i
 	@echo ... Character.s
@@ -358,6 +442,12 @@ help:
 	@echo ... Enemy.obj
 	@echo ... Enemy.i
 	@echo ... Enemy.s
+	@echo ... FireSlash.obj
+	@echo ... FireSlash.i
+	@echo ... FireSlash.s
+	@echo ... Heal.obj
+	@echo ... Heal.i
+	@echo ... Heal.s
 	@echo ... Player.obj
 	@echo ... Player.i
 	@echo ... Player.s

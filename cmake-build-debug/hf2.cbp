@@ -84,6 +84,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/BME_6/c11/hf2/Ability.h">
+			<Option target="hf2"/>
+		</Unit>
+		<Unit filename="D:/BME_6/c11/hf2/Attack.cpp">
+			<Option target="hf2"/>
+		</Unit>
+		<Unit filename="D:/BME_6/c11/hf2/Attack.h">
+			<Option target="hf2"/>
+		</Unit>
 		<Unit filename="D:/BME_6/c11/hf2/Character.cpp">
 			<Option target="hf2"/>
 		</Unit>
@@ -100,6 +109,18 @@
 			<Option target="hf2"/>
 		</Unit>
 		<Unit filename="D:/BME_6/c11/hf2/Enemy.h">
+			<Option target="hf2"/>
+		</Unit>
+		<Unit filename="D:/BME_6/c11/hf2/FireSlash.cpp">
+			<Option target="hf2"/>
+		</Unit>
+		<Unit filename="D:/BME_6/c11/hf2/FireSlash.h">
+			<Option target="hf2"/>
+		</Unit>
+		<Unit filename="D:/BME_6/c11/hf2/Heal.cpp">
+			<Option target="hf2"/>
+		</Unit>
+		<Unit filename="D:/BME_6/c11/hf2/Heal.h">
 			<Option target="hf2"/>
 		</Unit>
 		<Unit filename="D:/BME_6/c11/hf2/Player.cpp">

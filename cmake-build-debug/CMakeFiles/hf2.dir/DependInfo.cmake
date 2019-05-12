@@ -4,9 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/BME_6/c11/hf2/Attack.cpp" "D:/BME_6/c11/hf2/cmake-build-debug/CMakeFiles/hf2.dir/Attack.cpp.obj"
   "D:/BME_6/c11/hf2/Character.cpp" "D:/BME_6/c11/hf2/cmake-build-debug/CMakeFiles/hf2.dir/Character.cpp.obj"
   "D:/BME_6/c11/hf2/CombatScenario.cpp" "D:/BME_6/c11/hf2/cmake-build-debug/CMakeFiles/hf2.dir/CombatScenario.cpp.obj"
   "D:/BME_6/c11/hf2/Enemy.cpp" "D:/BME_6/c11/hf2/cmake-build-debug/CMakeFiles/hf2.dir/Enemy.cpp.obj"
+  "D:/BME_6/c11/hf2/FireSlash.cpp" "D:/BME_6/c11/hf2/cmake-build-debug/CMakeFiles/hf2.dir/FireSlash.cpp.obj"
+  "D:/BME_6/c11/hf2/Heal.cpp" "D:/BME_6/c11/hf2/cmake-build-debug/CMakeFiles/hf2.dir/Heal.cpp.obj"
   "D:/BME_6/c11/hf2/Player.cpp" "D:/BME_6/c11/hf2/cmake-build-debug/CMakeFiles/hf2.dir/Player.cpp.obj"
   "D:/BME_6/c11/hf2/Scenario.cpp" "D:/BME_6/c11/hf2/cmake-build-debug/CMakeFiles/hf2.dir/Scenario.cpp.obj"
   "D:/BME_6/c11/hf2/Warrior.cpp" "D:/BME_6/c11/hf2/cmake-build-debug/CMakeFiles/hf2.dir/Warrior.cpp.obj"

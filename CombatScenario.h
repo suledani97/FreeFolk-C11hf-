@@ -11,12 +11,12 @@
 
 class CombatScenario final : public Scenario{
 private:
-    std::shared_ptr<Player> _player;
-    std::shared_ptr<Enemy> _enemy;
+    std::shared_ptr<Character> _player;
+    std::shared_ptr<Character> _enemy;
 
 public:
     virtual void runScenario() override;
-    CombatScenario(std::string message, std::shared_ptr<Player> player, std::shared_ptr<Enemy> enemy);
+    CombatScenario(std::string message, std::shared_ptr<Character> player, std::shared_ptr<Character> enemy);
 };
 
 

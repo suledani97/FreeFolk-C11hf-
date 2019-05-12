@@ -16,7 +16,7 @@ private:
 
 public:
     Warrior(int health, int damage, int armor);
-    virtual void chooseNextMove(std::string input, std::shared_ptr<Enemy> enemy) override final;
+    virtual void chooseNextMove(std::shared_ptr<Character> enemy) override final;
     virtual void writeCombatMessage() override final;
 };
 

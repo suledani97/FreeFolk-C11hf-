@@ -7,10 +7,24 @@
 #include "Scenario.h"
 #include "WeaponScenario.h"
 #include "CombatScenario.h"
+#include "Attack.h"
+#include "FireSlash.h"
+#include "Heal.h"
+#include "Enemy.h"
 
 auto setUpGame(){
-    auto player = std::make_shared<Warrior>(100, 10, 15);
-    auto enemy = std::make_shared<Enemy>(200, 15, 10);
+    auto player = std::make_shared<Warrior>(10, 10, 15);
+    auto enemy = std::make_shared<Enemy>(10, 15, 15);
+
+    auto attack = std::make_shared<Attack>();
+    auto fireslash = std::make_shared<FireSlash>();
+    auto heal = std::make_shared<Heal>();
+
+    player->addAbility(attack);
+    player->addAbility(fireslash);
+    player->addAbility(heal);
+
+    enemy->addAbility(attack);
 
     std::string starting_message = "You wake up in your small wooden house. You hear people screaming outside your door. You look around, you see your trusty axe next to the drawer.";
     auto startingScenario = std::make_shared<Scenario>(starting_message);

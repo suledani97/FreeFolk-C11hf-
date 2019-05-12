@@ -33,3 +33,22 @@ int Character::get_damage() {
 int Character::get_armorclass() {
     return _armorclass;
 }
+
+void Character::takeHealth(int health) {
+    _health += health;
+    if (_health > 100){
+        _health = 100;
+    }
+}
+
+void Character::addAbility(std::shared_ptr<Ability> ability) {
+    _abilities.push_back(ability);
+}
+
+std::vector<std::shared_ptr<Ability>> Character::get_abilities() {
+    return _abilities;
+}
+
+void Character::set_death(bool dead) {
+    _isDead = dead;
+}
