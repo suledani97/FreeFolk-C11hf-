@@ -26,6 +26,10 @@ vector
 Ability.h
 D:/BME_6/c11/hf2/Ability.h
 
+D:/BME_6/c11/hf2/CombatScenario.cpp
+CombatScenario.h
+D:/BME_6/c11/hf2/CombatScenario.h
+
 D:/BME_6/c11/hf2/CombatScenario.h
 Scenario.h
 D:/BME_6/c11/hf2/Scenario.h
@@ -36,6 +40,12 @@ D:/BME_6/c11/hf2/Enemy.h
 Character.h
 D:/BME_6/c11/hf2/Character.h
 
+D:/BME_6/c11/hf2/FireSlash.cpp
+iostream
+-
+FireSlash.h
+D:/BME_6/c11/hf2/FireSlash.h
+
 D:/BME_6/c11/hf2/FireSlash.h
 memory
 -
@@ -43,6 +53,12 @@ Character.h
 D:/BME_6/c11/hf2/Character.h
 Ability.h
 D:/BME_6/c11/hf2/Ability.h
+
+D:/BME_6/c11/hf2/Heal.cpp
+iostream
+-
+Heal.h
+D:/BME_6/c11/hf2/Heal.h
 
 D:/BME_6/c11/hf2/Heal.h
 memory
@@ -53,15 +69,27 @@ Ability.h
 D:/BME_6/c11/hf2/Ability.h
 
 D:/BME_6/c11/hf2/Player.h
-xstring
+string
 -
 memory
 -
 Character.h
 D:/BME_6/c11/hf2/Character.h
 
+D:/BME_6/c11/hf2/Scenario.cpp
+string
+-
+iostream
+-
+sstream
+-
+Scenario.h
 D:/BME_6/c11/hf2/Scenario.h
-xstring
+vector
+-
+
+D:/BME_6/c11/hf2/Scenario.h
+string
 -
 map
 -
@@ -70,19 +98,35 @@ memory
 Player.h
 D:/BME_6/c11/hf2/Player.h
 
+D:/BME_6/c11/hf2/Warrior.cpp
+memory
+-
+iostream
+-
+Warrior.h
+D:/BME_6/c11/hf2/Warrior.h
+
 D:/BME_6/c11/hf2/Warrior.h
 memory
 -
 Player.h
 D:/BME_6/c11/hf2/Player.h
 
+D:/BME_6/c11/hf2/WeaponScenario.cpp
+utility
+-
+iostream
+-
+string
+-
+WeaponScenario.h
+D:/BME_6/c11/hf2/WeaponScenario.h
+
 D:/BME_6/c11/hf2/WeaponScenario.h
 Scenario.h
 D:/BME_6/c11/hf2/Scenario.h
 
 D:/BME_6/c11/hf2/main.cpp
-memory
--
 memory
 -
 iostream
